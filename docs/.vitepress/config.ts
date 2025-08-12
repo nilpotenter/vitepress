@@ -5,6 +5,10 @@ export default defineConfig({
     // base: '/vitepress/',
     base: '/',
     title:"nilpotenter",
+    head: [
+        // 这将是 <link rel="icon" href="/favicon.ico">
+        ['link', { rel: 'icon', href: '/assets/icons/docker_original_logo_icon_146556.ico' }]
+    ],
     themeConfig:{
 	
         logo: "/assets/icons/docker_original_logo_icon_146556.ico",
