@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
+    base: '/vitepress/',
     title:"nilpotenter",
     themeConfig:{
-	base: '/vitepress/',
+	
         logo:"../assets/icons/docker_original_logo_icon_146556.ico",
         sidebar:{
             "/guide/":[
