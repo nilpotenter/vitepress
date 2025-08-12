@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title:"nilpotenter",
     themeConfig:{
+	base: '/vitepress/',
         logo:"../assets/icons/docker_original_logo_icon_146556.ico",
         sidebar:{
             "/guide/":[
