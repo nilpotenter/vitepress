@@ -6,7 +6,7 @@ export default defineConfig({
     title:"nilpotenter",
     themeConfig:{
 	
-        logo:"../assets/icons/docker_original_logo_icon_146556.ico",
+        logo: "/assets/icons/docker_original_logo_icon_146556.ico",
         sidebar:{
             "/guide/":[
                 {
