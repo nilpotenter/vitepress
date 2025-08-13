@@ -38,6 +38,14 @@ export default defineConfig({
                         {text:"git2",link:"/guide/Git/git2"},
                     ],
                 },
+                {
+                    text:"Git",
+                    collapsible:true,
+                    items:[
+                        {text:"git1",link:"/guide/Git/git1"},
+                        {text:"git2",link:"/guide/Git/git2"},
+                    ],
+                },
                     
             ],
             "/reference/": [
