@@ -30,6 +30,14 @@ export default defineConfig({
                         {text:"源处理",link:"/guide/write/asset-handling"},
                     ],
                 },
+                {
+                    text:"Git",
+                    collapsible:true,
+                    items:[
+                        {text:"git1",link:"/guide/Git/git1"},
+                        {text:"git2",link:"/guide/Git/git2"},
+                    ],
+                },
                     
             ],
             "/reference/": [
