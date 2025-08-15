@@ -36,6 +36,15 @@ export default defineConfig({
                     items:[
                         {text:"git1",link:"/guide/Git/git1"},
                         {text:"git2",link:"/guide/Git/git2"},
+                        {text:"git3",link:"/guide/Git/git3"},
+                    ],
+                },
+                {
+                    text:"深度学习基础",
+                    collapsible:true,
+                    items:[
+                        {text:"pytorch1",link:"/guide/deepLearning/pytorch1"},
+                        {text:"pytorch2",link:"/guide/deepLearning/pytorch2"},
                     ],
                 },
                     
