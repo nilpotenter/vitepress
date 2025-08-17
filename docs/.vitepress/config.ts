@@ -7,7 +7,15 @@ export default defineConfig({
     title:"nilpotenter",
     head: [
         // 这将是 <link rel="icon" href="/favicon.ico">
-        ['link', { rel: 'icon', href: '/assets/icons/docker_original_logo_icon_146556.ico' }]
+        ['link', { rel: 'icon', href: '/assets/icons/docker_original_logo_icon_146556.ico' }],
+        [
+      'script',
+      {
+        async: '',
+        'data-website-id': 'af3d53db-44e3-4d2a-b5ee-9aa7dd9f71cf',
+        src: 'https://umami-blush-phi.vercel.app/script.js', 
+      },
+    ],
     ],
     themeConfig:{
 	
